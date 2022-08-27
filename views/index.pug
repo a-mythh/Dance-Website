@@ -1,0 +1,71 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Nirvana 
+        //- CSS
+        style 
+            include ../static/index.css
+    body 
+
+        nav#navbar 
+            ul
+                #logo1 
+                    img(src="../static/img/logo.png", alt="logo")
+                li
+                    a(href="/") Home 
+                li
+                    a(href="/") About 
+                li
+                    a(href="/") Contact 
+                li
+                    a(href="/") Services 
+                li
+                    a(href="/") Class Info 
+                #logo2 
+                    img(src="../static/img/logo.png", alt="logo")
+        section#introSection 
+            div NIRVANA
+            div.tagline LIVE. LEARN. DANCE.
+        
+        section#missionSection 
+            h2 Our Mission 
+            .card 
+                h4 Dance Perfection
+                .card-box
+                    .card-img
+                        img(src="../static/img/1.png", alt="alt")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            .card 
+                h4 As You Like It 
+                .card-box
+                    .card-img
+                        img(src="../static/img/2.png", alt="alt")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            .card 
+                h4 Expert Teaching 
+                .card-box
+                    .card-img
+                        img(src="../static/img/3.png", alt="alt")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+        section#sponsorsSection 
+            h2 Our Sponsors 
+            .sponsors
+                img(src="../static/img/logo1.png", alt="Sponsor 1", class="sponsorImage") 
+                img(src="../static/img/logo2.png", alt="Sponsor 2", class="sponsorImage") 
+                img(src="../static/img/logo3.png", alt="Sponsor 3", class="sponsorImage") 
+                img(src="../static/img/logo4.png", alt="Sponsor 4", class="sponsorImage") 
+
+        
+        footer#footer
+            | Copyright &copy 2022 Nirvana Inc. | All rights reserved.
+
+        //- JavaScript 
+        script  
+            include ../static/index.js 

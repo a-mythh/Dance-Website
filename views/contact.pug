@@ -1,0 +1,23 @@
+extends base.pug
+block head
+    title Nirvana | Contact Us
+
+    block scripts
+        script(src="../static/index.js") 
+
+    block style
+        style
+            include ../static/index.css
+            include ../static/contact.css
+
+
+block content
+    .container 
+        h2.pageHeading Connect with Us 
+        form.myForm(action="/contact", method="post") 
+            input.myInput(type="text", name="name", id="name", placeholder="Enter your name" required)
+            input.myInput(type="phone", name="mobile", id="mobile", placeholder="Enter your mobile number" required)
+            input.myInput(type="email", name="email", id="email", placeholder="Enter your email" required)
+            input.myInput(type="text", name="desc", id="desc", placeholder="Enter your concern" required)
+            button.btn 
+                | Submit  

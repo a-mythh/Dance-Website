@@ -1,0 +1,28 @@
+//- layout.pug
+doctype html
+html(lang="en")
+html
+  block head
+    title Nirvana
+    block scripts
+    block style
+  body
+    nav#navbar 
+        ul
+            #logo1 
+                img(src="../static/img/logo.png", alt="logo")
+            li
+                a(href="/") Home 
+            li
+                a(href="/") About 
+            li
+                a(href="/contact") Contact 
+            li
+                a(href="/") Services 
+            li
+                a(href="/") Class Info 
+            #logo2 
+                img(src="../static/img/logo.png", alt="logo")
+    block content
+    footer#footer
+            | Copyright &copy 2022 Nirvana Inc. | All rights reserved.

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Ubuntu&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    padding: 12px 4px;
+    background-color: #891b13;
+}
+
+#logo1 img {
+    height: 30px;
+    filter: invert(1);
+}
+#logo2 img {
+    height: 30px;
+    filter: invert(1);
+    transform: scaleX(-1);
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 35px;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar li a:hover {
+    color: #f19690;
+}
+
+#introSection {
+    background: #ffffff
+        url("https://images.unsplash.com/photo-1474308371634-c715850e8d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+        no-repeat center center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffdc8f;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3.5rem;
+    text-shadow: 0px 0px 17px black;
+}
+
+.tagline {
+    word-spacing: 110px;
+    font-size: 34px;
+    position: relative;
+    left: 24px;
+    color: blanchedalmond;
+}
+
+#missionSection {
+    height: 318px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    height: 70%;
+    padding: 8px;
+    margin: 22px;
+}
+
+.card h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 19px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}
+
+.card-img {
+    height: 118px;
+    padding: 8px 14px;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+.card-content {
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+#sponsorsSection {
+    margin-top: 20px;
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Poppins";
+    background-color: azure;
+}
+
+.sponsors {
+    height: 160px;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.sponsorImage {
+    height: 80%;
+    margin: 20px;
+}
+
+#footer {
+    background-color: black;
+    height: 35px;
+    color: #ffffffb0;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "ubuntu", sans-serif;
+}

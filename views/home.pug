@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style
+  style
+    include ../static/index.css
+
+block content 
+
+        section#introSection 
+            div NIRVANA
+            div.tagline LIVE. LEARN. DANCE.
+        
+        section#missionSection 
+            h2 Our Mission 
+            .card 
+                h4 Dance Perfection
+                .card-box
+                    .card-img
+                        img(src="../static/img/1.png", alt="alt")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            .card 
+                h4 As You Like It 
+                .card-box
+                    .card-img
+                        img(src="../static/img/2.png", alt="alt")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            .card 
+                h4 Expert Teaching 
+                .card-box
+                    .card-img
+                        img(src="../static/img/3.png", alt="alt")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+        section#sponsorsSection 
+            h2 Our Sponsors 
+            .sponsors
+                img(src="../static/img/logo1.png", alt="Sponsor 1", class="sponsorImage") 
+                img(src="../static/img/logo2.png", alt="Sponsor 2", class="sponsorImage") 
+                img(src="../static/img/logo3.png", alt="Sponsor 3", class="sponsorImage") 
+                img(src="../static/img/logo4.png", alt="Sponsor 4", class="sponsorImage") 
+
+        
+        
