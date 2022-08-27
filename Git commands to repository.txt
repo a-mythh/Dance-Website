@@ -1,0 +1,23 @@
+touch .gitignore - put the path of the files you want to be ignored while uploading
+
+git config --global user.name Amit
+git config --global user.email "dasamit2002@gmail.com"
+
+git init - initialize the repository --> creates a .git hidden file
+
+git add . - add the files to the staging area
+
+git commit -m "Initial commit" - commit the files
+
+git status --> Not important but just to see what happened to the files till now
+
+ssh-keygen -t rsa -b 4096 -C "dasamit2002@gmail.com"
+
+cat <path to id_rsa.pub> - add this key to your github account
+
+git remote add origin <ssh url from git>
+
+git push origin master
+
+
+
